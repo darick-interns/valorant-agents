@@ -1,0 +1,124 @@
+@font-face {
+    font-family: Tungsten-Bold;
+    src: url(../fonts/Tungsten-Bold.ttf);
+    }
+    @font-face {
+    font-family: DINNextW1G;
+    src: url(../fonts/DINNextW1G-Regular.ttf);
+    }
+    @font-face {
+    font-family: Rubik-Medium;
+    src: url(../fonts/Rubik-Medium.ttf);
+    }
+    @font-face {
+    font-family: Rubik-Bold;
+    src: url(../fonts/Rubik-Bold.ttf);
+    }
+    body{
+        background: url('../images/valorant-background.png')
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 20% 45% 35%;
+    }
+    .left{
+        font-size: 20px;
+        height: 100vh;       
+    }
+    .mid{
+        font-size: 20px;
+        height: 100vh;
+        display: block;           
+    }
+    .agent-name{
+        font-family: Tungsten-Bold;
+        color: #ffffff;
+        margin: 2px;
+        font-size: 90px;
+        text-transform: uppercase;
+        margin-left: 40px;
+        overflow: hidden;
+        margin-top: 15%;
+    }
+    .agent-type{
+        font-family: Tungsten-Bold;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+    .agent-description{
+        font-family: DINNextW1G;
+        color: white;
+        font-size: 20px;
+        margin-right: 1in;
+        margin-left: 1in;
+        text-align: justify;
+    }
+    .ability-description{
+        padding-left: 1.5in;
+        font-family: DINNextW1G;
+        color: white;
+        font-size: 20px;
+        margin-right: 1in;
+        text-align: justify;
+    }
+    h2{
+        color: white;
+        font-family: Tungsten-Bold;
+        text-transform: uppercase;
+        padding-left: 1in;
+    }
+    th button{
+        font-family: Rubik-Bold;
+        color: white;
+        font-size: 25px;
+        background: #FF4B50;
+        border: none;
+        cursor: pointer;
+        display: block;
+        padding: 0.5rem 1rem;
+    }       
+    table{
+        background-color: transparent;
+        width: 100%;
+        border-collapse: collapse;
+       
+    }     
+    th{
+        background-color: #FF4B50;
+        border: none;
+        padding: 0%;
+        border: 1px solid #b6b6b6;     
+    }
+    td{
+        background-color: transparent;
+        cursor: pointer;
+        padding: 5px;
+        font-family: Rubik-Medium;
+        color: white;
+        border: 1px solid #b6b6b6;
+    }
+    li{
+        cursor: pointer;
+        display: inline;
+        padding: 20px;
+        color: white;
+    }
+    ul{
+        padding-left: 1.5in;
+    }
+    #skill1, #skill2, #skill3, #skill4  {
+        padding: 20px;
+        width: 70px;
+        height: auto;
+    }
+    #type-img{
+        width: 70px;
+        height: auto;
+        margin-top: 20px;
+    }
+    #agent-img{
+        width: 80%;
+        height: auto;
+        padding-right: 120px;
+        margin-top: 50px;
+    }
